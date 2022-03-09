@@ -1,0 +1,6 @@
+<p>
+  Today's item: {{item}}
+</p>
+
+<label>Add an item: <input #newValue></label>
+<button (click)="addNewValue(newValue.value)">Add to parent's list</button>
